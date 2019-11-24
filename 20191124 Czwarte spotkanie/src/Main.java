@@ -3,7 +3,19 @@
 public class Main {
     public static void main(String[] args) {
         //pojazd();
-        firma();
+        //firma();
+        Shape circle = new Circle(5);
+        System.out.println(circle.getArea());
+        System.out.println(circle.getLineColor());
+
+        Shape circle2 = new Circle("Czerwony",5);
+        System.out.println(circle2.getArea());
+        System.out.println(circle2.getLineColor());
+
+        Shape rectangle = new Rectangle("niebieski",5);
+        System.out.println(rectangle.getArea());
+        System.out.println(rectangle.getLineColor());
+
     }
 
     private static void pojazd() {
